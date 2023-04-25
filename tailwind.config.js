@@ -4,8 +4,14 @@ export default {
     "./src/**/*.{html,js,jsx}"
   ],
   theme: {
-    colors: {
-        'spline': '#0e1129',
+    extend: {
+        colors: {
+            'spline': '#0e1129',
+        },
+        fontFamily: {
+            'spline-sans': ['Spline Sans', 'sans-serif'],
+            'spline-sans-mono': ['Spline Sans Mono', 'monospace']
+        },
     },
   },
   plugins: [],
