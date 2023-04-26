@@ -1,9 +1,9 @@
 import { useState } from 'react';
 
 import Spline from '@splinetool/react-spline';
-import Youtube from "./assets/icon-youtube.svg";
-import Twitter from "./assets/icon-twitter.svg";
-import Laptop from "./assets/icon-laptop.svg";
+import IconYoutube from "./assets/icon-youtube.svg";
+import IconTwitter from "./assets/icon-twitter.svg";
+import IconLaptop from "./assets/icon-laptop.svg";
 import Logo from "./assets/logo.svg";
 
 function App() {
@@ -23,8 +23,13 @@ function App() {
             </nav>
             <h1 className="mr-8 ml-24 text-white font-spline-sans-mono font-bold text-7xl max-w-xl">Collaborate with people</h1>
             <p className="mr-8 ml-24 font-spline-sans max-w-sm">Bring your team together and build your community by using our cross-platform app that lets you collaborate wia chat, voice and by sharing and storing unlimited media files. A world of topics is waiting for you. Join the private beta.</p>
-            <button style={{ backdropFilter: "blur(20px)" }} className="regular-button"><img src={Laptop} alt="Download"/>Download for Mac</button>
+            <button style={{ backdropFilter: "blur(20px)" }} className="regular-button"><img src={IconLaptop} alt="Download"/>Download for Mac</button>
         </section>
+        <aside className="absolute top-36 left-8 flex flex-col gap-8">
+            <div className="w-px h-96 custom-gradient"/>
+            <img src={IconTwitter} alt="icon for twitter" />
+            <img src={IconYoutube} alt="icon for youtube" />
+        </aside>
     </main>
   )
 }
