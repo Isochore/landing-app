@@ -11,7 +11,7 @@ function App() {
 
   return (
     <main className="font-sm text-white relative bg-spline h-screen w-screen">
-        <Spline className="m-0 absolute -right-0 -top-0" style={{ width: '1200px' }} scene="https://prod.spline.design/tPEkFO98iLwul1pA/scene.splinecode" />
+        <Spline className="m-0 absolute right-0 top-0 scale-50 translate-x-96 sm:scale-60 sm:translate-x-72 md:scale-70 md:translate-x-64 lg:scale-80 lg:translate-x-60 xl:scale-100 xl:translate-x-32" style={{ width: '1200px' }} scene="https://prod.spline.design/tPEkFO98iLwul1pA/scene.splinecode" />
         <section className="text-white absolute top-8 flex flex-col gap-y-20">
             <nav className="flex gap-8 items-center mr-8 ml-24">
                 <li className="list-none"><img src={Logo} alt="Logo" /></li>

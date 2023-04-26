@@ -13,8 +13,20 @@ export default {
             'spline-sans': ['Spline Sans', 'sans-serif'],
             'spline-sans-mono': ['Spline Sans Mono', 'monospace']
         },
-    },
+        screens: {
+            'xxs': '320px',
+        },
+        scale: {
+            '30': '.3',
+            '40': '.4',
+            '60': '.6',
+            '70': '.7',
+            '80': '.8',
+        },
+        transform: {
+            '128': 'translateX(32rem)',
+        },
   },
   plugins: [],
 }
-
+}
