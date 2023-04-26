@@ -7,6 +7,7 @@ export default {
     extend: {
         colors: {
             'spline': '#0e1129',
+            'download': 'rgba(0, 0, 0, 0.2)',
         },
         fontFamily: {
             'spline-sans': ['Spline Sans', 'sans-serif'],
