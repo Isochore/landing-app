@@ -14,7 +14,7 @@ export default {
             'spline-sans-mono': ['Spline Sans Mono', 'monospace']
         },
         screens: {
-            'xxs': '320px',
+            'xxs': '400px',
         },
         scale: {
             '30': '.3',
@@ -25,6 +25,9 @@ export default {
         },
         transform: {
             '128': 'translateX(32rem)',
+        },
+        maxWidth: {
+            'xxs': '250px',
         },
   },
   plugins: [],
